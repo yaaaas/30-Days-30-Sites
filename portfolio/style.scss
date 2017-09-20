@@ -1,0 +1,73 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/11/52/coder-1869306_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  
+  .buttons{
+    font-family: calibri;
+    padding: 10% 28% 40% 28%;
+    .ghost{
+      &:hover {
+        background-color: #f5f5f5;
+        color: black;
+         transition: color 0.3s ease-in , background-color 0.3s ease-in;
+      }
+    }
+  }
+  
+  .aboutme{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 25%;
+    .hireme{
+      margin-left: 35%;
+      margin-top: 5%;
+      
+    }
+  }
+  
+  .portfolio{
+    padding-top: 15%;
+    padding-bottom: 25%;
+    .calltoaction{
+      margin-left: 43%;
+      
+    }
+  }
+  
+  .contactme{
+    padding-top: 2%;
+    margin-bottom: 30%;
+    .callmebaby{
+      margin-bottom: 3%;
+    }
+    .buttonmeup{
+      margin-left: 22%;
+    }
+    .asdf{
+      margin-left: 28%;
+    }
+  }
+}
+
+.btn{
+      color: black;
+      font-size: 20px;
+      line-height: 30px;
+      display: inline-block;
+      width: 200px;
+  cursor: pointer;
+      text-align: center;
+      padding: 8px;
+      margin: 10px;
+      text-decoration: none;
+      transition: color 0.3s ease-out , background-color 0.3s ease-out;
+       
+    }
+.hiring{
+        &:hover {
+        background-color: red;
+        color: black;
+         transition: color 0.3s ease-in , background-color 0.3s ease-in;
+      }
+      }
