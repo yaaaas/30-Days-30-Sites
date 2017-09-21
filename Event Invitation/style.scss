@@ -1,0 +1,96 @@
+.anouncement{
+  background-image: url("http://static6.businessinsider.com/image/56aa417958c32378008b5eaa/10-ways-couples-can-finish-rich.jpg");
+  width: 100%;
+  height: 800px;
+  .info{
+    padding-top: 27%;
+      .title{
+      font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 300%;
+        padding-bottom: 1%;
+    }
+    .subtitle{
+      color:white;
+      font-size: 80%;
+      font-family: bold;
+    }
+    
+  }
+  
+}
+.story{
+  padding-top: 2%;
+  padding-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  #ourstory{
+    padding: 3%;
+    
+  }
+  .backstory{
+    padding-right: 6%;
+    padding-left: 6%;
+    text-align:justify;
+    padding-top: 2%;
+  }
+}
+.event{
+  background-image: url("http://8301932a6772b891aba6-5a8db9fa4a36674ccd5399a9275ef4b7.r23.cf1.rackcdn.com/lps/assets/u/HD-Wedding.jpg");
+   /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     
+  #eventdetails{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    
+  }
+}
+.location{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  .map{
+    padding-top: 5%;
+    padding-left: 10%;
+    
+  }
+  .locations{
+    padding-right: 20%;
+    padding-top: 15%;
+    text-align: justify;
+    
+  }
+}
+
+.btn{
+      color: black;
+      font-size: 20px;
+      line-height: 30px;
+      display: inline-block;
+      width: 200px;
+      cursor: pointer;
+      text-align: center;
+      padding: 8px;
+      margin: 10px;
+      text-decoration: none;
+      transition: color 0.3s ease-out , background-color 0.3s ease-out;
+       
+    }
+.hiring{
+        &:hover {
+        background-color: #f5f5f5;
+        color: black;
+         
+         transition: color 0.3s ease-in , background-color 0.3s ease-in;
+      }
+      }
+
+  
